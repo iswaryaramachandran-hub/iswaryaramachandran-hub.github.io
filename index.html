@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Iswarya Ramachandran, a business analyst working across data analytics, GIS, and utility transformation."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Iswarya Ramachandran</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%235b5bd6'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='26' font-weight='700' fill='white'%3EIR%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="logo" href="#top">Iswarya.</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+      <nav data-nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="kicker">Business Analyst · Santa Clara, California</p>
+          <h1>Hi, I’m Iswarya.</h1>
+          <p class="intro">
+            I enjoy taking complicated data and turning it into something clear, useful, and easy to act on.
+            My background is in business analysis, GIS, utility data, and cross-functional delivery.
+          </p>
+          <div class="hero-links">
+            <a class="button primary" href="#projects">See my projects</a>
+            <a class="button secondary" href="assets/Iswarya-Ramachandran-Resume.pdf" download>Download résumé</a>
+          </div>
+        </div>
+
+        <figure class="portrait-card">
+          <img src="assets/iswarya-profile.png" alt="Iswarya Ramachandran smiling" />
+          <figcaption>
+            Currently pursuing an MS in Business Analytics at Santa Clara University.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-title">
+          <p>About me</p>
+          <h2>A curious analyst with a practical streak.</h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-copy">
+            <p>
+              Over the last 7.5 years, I’ve worked with UK electricity clients on GIS transformation, electrical
+              network integration, data quality, reporting, and process improvement. I like work that sits between
+              people and technology—understanding the real problem, finding the useful signal, and helping a team move
+              forward.
+            </p>
+            <p>
+              Outside day-to-day delivery, I’ve enjoyed mentoring teammates, sharing knowledge, and learning new ways
+              to use Python, SQL, visualization, and AI in analysis.
+            </p>
+          </div>
+
+          <dl class="quick-facts">
+            <div><dt>Experience</dt><dd>7.5 years</dd></div>
+            <div><dt>Based in</dt><dd>Santa Clara, CA</dd></div>
+            <div><dt>Current focus</dt><dd>Business Analytics</dd></div>
+            <div><dt>Industry</dt><dd>Utilities & Technology</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-title">
+          <p>Experience</p>
+          <h2>Where I’ve worked.</h2>
+        </div>
+
+        <article class="role">
+          <div class="role-side">
+            <p>Nov 2018 — Jun 2026</p>
+            <span>Tata Consultancy Services</span>
+          </div>
+          <div class="role-main">
+            <h3>Senior IT Analyst & Technical Lead</h3>
+            <p class="role-intro">
+              Led GIS data transformation and analytics work for UK utility clients, with a focus on data quality,
+              reliable delivery, and clear communication between clients and technical teams.
+            </p>
+            <ul>
+              <li>Proposed a semi-automated GIS solution that reduced manual effort and turnaround time by about 40%.</li>
+              <li>Used SQL analysis and reconciliation to find inconsistencies and improve reporting accuracy.</li>
+              <li>Resolved 900+ technical queries as a geospatial SME and primary client contact.</li>
+              <li>Built Power BI dashboards for data quality, project performance, and resource visibility.</li>
+              <li>Mentored and trained 150+ GIS and data professionals.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-title">
+          <p>Projects</p>
+          <h2>A few things I’ve been working on.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://raw.githubusercontent.com/iswaryaramachandran-hub/supermarket-sales-analysis/main/charts/product_line_sales.png"
+                alt="Bar chart of supermarket sales by product line"
+              />
+            </div>
+            <div class="project-body">
+              <p class="project-type">Python · Data analysis</p>
+              <h3>Supermarket Sales Analysis</h3>
+              <p>
+                Cleaned and analyzed 1,000 retail transactions across 17 variables, covering more than $323K in sales.
+                The analysis compares product lines, branches, customer groups, payment methods, and monthly trends.
+              </p>
+              <div class="tags"><span>Python</span><span>pandas</span><span>NumPy</span><span>Matplotlib</span></div>
+              <a href="https://github.com/iswaryaramachandran-hub/supermarket-sales-analysis" target="_blank" rel="noreferrer">
+                View on GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card text-project">
+            <div class="project-number" aria-hidden="true">02</div>
+            <div class="project-body">
+              <p class="project-type">AI · Consumer analytics</p>
+              <h3>Predicting Product Returns with Review Analytics</h3>
+              <p>
+                Used sentiment analysis to study 500 customer reviews and survey responses from 103 online shoppers.
+                The project surfaced recurring return drivers such as product quality, fit, damage, and description
+                mismatch, then translated them into business recommendations.
+              </p>
+              <div class="tags"><span>Python</span><span>TextBlob</span><span>Power BI</span><span>Tableau</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section details">
+        <div class="skills-block">
+          <div class="section-title compact">
+            <p>Toolkit</p>
+            <h2>What I work with.</h2>
+          </div>
+          <div class="skill-groups">
+            <div><h3>Analysis</h3><p>SQL · Python · Advanced Excel</p></div>
+            <div><h3>Visualization</h3><p>Power BI · Tableau</p></div>
+            <div><h3>GIS</h3><p>ArcGIS Pro · QGIS · Smallworld · FME · ESRI</p></div>
+            <div><h3>Other</h3><p>SAP–GIS Integration · SharePoint · AI Workflows</p></div>
+          </div>
+        </div>
+
+        <div class="education-block">
+          <div class="section-title compact">
+            <p>Education</p>
+            <h2>Always learning.</h2>
+          </div>
+          <div class="education-list">
+            <article><span>Expected 2027</span><h3>MS, Business Analytics</h3><p>Santa Clara University</p></article>
+            <article><span>2026</span><h3>Master of Business Administration</h3><p>SASTRA University · 8.93/10</p></article>
+            <article><span>2018</span><h3>Bachelor of Computer Applications</h3><p>Bon Secours College for Women · 8.05/10</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="kicker">Get in touch</p>
+        <h2>Say hello.</h2>
+        <p>
+          I’m open to conversations about business analytics, data transformation, GIS, and opportunities where I can
+          keep learning while doing useful work.
+        </p>
+        <div class="contact-links">
+          <a class="button primary" href="mailto:iswaryachandranmr@gmail.com">Email me</a>
+          <a class="plain-link" href="https://github.com/iswaryaramachandran-hub" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with care by Iswarya · <span data-year></span></p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
